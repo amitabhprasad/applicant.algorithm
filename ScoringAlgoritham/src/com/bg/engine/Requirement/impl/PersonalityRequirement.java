@@ -1,4 +1,4 @@
-package com.bg.engine.impl;
+package com.bg.engine.Requirement.impl;
 
 import com.bg.engine.JobRequirement;
 
@@ -11,6 +11,6 @@ import com.bg.engine.JobRequirement;
  * 
  * Should be populated with data from following table ???
  */
-public class LegalRequirement implements JobRequirement {
+public class PersonalityRequirement implements JobRequirement {
 
 }

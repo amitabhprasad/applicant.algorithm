@@ -3,39 +3,58 @@ package com.bg.engine.algorithm.impl;
 import java.util.List;
 import java.util.Map;
 
+import com.bg.engine.ApplicantDetails;
 import com.bg.engine.AssessmentAlgorithm;
 import com.bg.engine.AssessmentObject;
 import com.bg.engine.JobRequirement;
-import com.bg.engine.impl.SkillRequirement;
+import com.bg.engine.Applicant.impl.*;
+import com.bg.engine.ApplicantModel.impl.ApplicantSkillModel;
+import com.bg.engine.Requirement.impl.SkillRequirement;
+import com.bg.engine.RequirementModel.impl.SkillRequirementModel;
+//import com.bg.services.workflow.Context;
 
 public class SkillAssessmentAlgorithm implements AssessmentAlgorithm {
 
 	@Override
-	public AssessmentObject doAlgorithum(JobRequirement requirement) {
+	public AssessmentObject doAlgorithum(JobRequirement requirement,ApplicantDetails applicantObject) {
 		AssessmentObject assessmentObject = new AssessmentObject();
-		//SkillRequirement skillRequirement = (SkillRequirement)requirement;
+		SkillRequirement skillRequirement = (SkillRequirement)requirement;
+		ApplicantSkill applicantSkill = (ApplicantSkill)applicantObject;
 		//Context context = null;
-		double applicantSkillScore = getApplicantSkillScore(null);
+		double applicantSkillScore = getApplicantSkillScore(skillRequirement.getSkillList(),applicantSkill.getSkillList());
 		assessmentObject.setAssessmentScore(applicantSkillScore);
 		return assessmentObject;
 	}
 
-	private double getApplicantSkillScore(List<String> skills){
+	private double getApplicantSkillScore(List<SkillRequirementModel> reqSkillList,List<ApplicantSkillModel> applicantSkillList){
 		double totalSkillScore = 0.0;
 		
-		for(String skill : skills){
+		for(SkillRequirementModel reqSkill : reqSkillList){
 			int skillScore = 0;
-			int jobSkillLevel = getJobRequiredSkillLevel();
-			int applicantSkillLevel = getApplicantSkillLevel();
-			int skillLevelDifference = jobSkillLevel-applicantSkillLevel;
-			int skillModifier = computeMatchingSkillModifiers(skillLevelDifference);
-			skillScore = jobSkillLevel+skillModifier;
+			ApplicantSkillModel applicantSkill=getApplicantSkill(reqSkill,applicantSkillList);
+			if(applicantSkill!=null){
+				int jobSkillLevel = getJobRequiredSkillLevel(reqSkill);
+				int applicantSkillLevel = getApplicantSkillLevel(applicantSkill);
+				int skillLevelDifference = jobSkillLevel-applicantSkillLevel;
+				int skillModifier = computeMatchingSkillModifiers(skillLevelDifference);
+				skillScore = jobSkillLevel+skillModifier;
+				
+				totalSkillScore+=skillScore;
+			}
 			
-			totalSkillScore+=skillScore;
 		}
 		
-		return totalSkillScore/skills.size();
+		return totalSkillScore/reqSkillList.size();
 	}
+	private ApplicantSkillModel getApplicantSkill(SkillRequirementModel reqSkill,List<ApplicantSkillModel> applicantSkillList) {
+		for(ApplicantSkillModel applicantSkill : applicantSkillList){
+			if(applicantSkill.getName() == reqSkill.getName()){
+				return applicantSkill;
+			}
+		}
+		return null;
+	}
+
 	private int computeMatchingSkillModifiers(int skillLevelDifference){
 		int skillModifier = 0;
 				
@@ -54,11 +73,13 @@ public class SkillAssessmentAlgorithm implements AssessmentAlgorithm {
 		return skillModifier;
 	}
 	
-	private int getApplicantSkillLevel(){
-		return 3;
+	private int getApplicantSkillLevel(ApplicantSkillModel applicantSkill){
+		int level = applicantSkill.getLevel();
+		return level;
 	}
 	
-	private int getJobRequiredSkillLevel(){
-		return 4;
+	private int getJobRequiredSkillLevel(SkillRequirementModel reqSkillInstance){
+		int level = reqSkillInstance.getLevel();
+		return level;
 	}
 }
