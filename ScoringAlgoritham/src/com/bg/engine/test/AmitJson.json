@@ -1,0 +1,876 @@
+{
+    "CreditsRemaining": 17,
+    "Resume": {
+        "xml:lang": "en",
+        "xmlns": "http://ns.hr-xml.org/2006-02-28",
+        "StructuredXMLResume": {
+            "Objective": "To achieve a challenging career in the field of Software Testing by working with professionals and continuous enhancement of skills.",
+            "RevisionDate": "2015-09-07",
+            "EmploymentHistory": {"EmployerOrg": {
+                "PositionHistory": {
+                    "StartDate": {"AnyDate": "notKnown"},
+                    "Description": "\u2022 More than 5.5 years of experience in Manual, Database testing.\n\u2022 Created test plans, worked on requirement study, scenario preparation, test case preparation and test execution. Also doing some Automation Stuff.\n\u2022 Resourceful Team Player and capable of delivering tasks within stringent time lines.\n\u2022 Delivered test conditions, test cases, test data and executed test beds for functional testing and regression testing.\n\u2022 Prepare Test cases and Test Case execution.\n\u2022 Extensive work experience in Functional Testing, Regression Testing and Smoke Testing.\n\nComputer Skills:\n\nComputer Languages                C, VB 6.0, Java\nRDBMS                             My-SQL,MS-Access,SQL Server 2000\nAnalysis skills                   SDLC, STLC, Software Engineering\nWeb Technology                    JSP, HTML,VBScript.\nTest Management/Automated Tools   You Track, JTrac, QC , Testlink, TestDirector 8.0",
+                    "UserArea": {"sov:PositionHistoryUserArea": {"sov:Id": "POS-1"}},
+                    "OrgName": {"OrganizationName": ""}
+                },
+                "EmployerOrgName": ""
+            }},
+            "LicensesAndCertifications": {"LicenseOrCertification": {
+                "Description": "certification; matched to list",
+                "Name": "B.C.S"
+            }},
+            "EducationHistory": {"SchoolOrInstitution": [
+                {
+                    "School": {"SchoolName": "Board/ University"},
+                    "Degree": {
+                        "degreeType": "bachelors",
+                        "Comments": "Passed Computer Society of India (CSI) exam of testing.\n\nDegree/ Diploma\tBoard/ University   School/College/Institute         Year of passing   Class",
+                        "UserArea": {"sov:DegreeUserArea": {"sov:Id": "DEG-1"}},
+                        "DegreeName": "Diploma"
+                    },
+                    "schoolType": "university"
+                },
+                {
+                    "Degree": {
+                        "DegreeDate": {"AnyDate": "2006-01-01"},
+                        "DatesOfAttendance": {
+                            "StartDate": {"AnyDate": "notKnown"},
+                            "EndDate": {"AnyDate": "2006-01-01"}
+                        },
+                        "degreeType": "bachelors",
+                        "Comments": "DST   (Diploma in   s/w Testing)   -\tSQTL\t2006",
+                        "UserArea": {"sov:DegreeUserArea": {"sov:Id": "DEG-2"}},
+                        "DegreeName": "Diploma",
+                        "DegreeMajor": {"Name": "s/w Testing"}
+                    },
+                    "schoolType": "UNSPECIFIED"
+                },
+                {
+                    "PostalAddress": {
+                        "Municipality": "Pune",
+                        "Region": "Pune",
+                        "CountryCode": "IN"
+                    },
+                    "School": {"SchoolName": "Abasaheb Garware College"},
+                    "Degree": {
+                        "DegreeDate": {"AnyDate": "2006-01-01"},
+                        "DatesOfAttendance": {
+                            "StartDate": {"AnyDate": "notKnown"},
+                            "EndDate": {"AnyDate": "2006-01-01"}
+                        },
+                        "degreeType": "masters",
+                        "Comments": "M.C.S / M.Sc (Computer science)    Pune\tAbasaheb Garware College, Pune   2006\tSecond",
+                        "UserArea": {"sov:DegreeUserArea": {"sov:Id": "DEG-3"}},
+                        "DegreeName": "M.C.S",
+                        "DegreeMajor": {"Name": "Computer science"}
+                    },
+                    "schoolType": "university"
+                },
+                {
+                    "PostalAddress": {
+                        "Municipality": "Pune",
+                        "Region": "Pune",
+                        "CountryCode": "IN"
+                    },
+                    "School": {"SchoolName": "H.V.Desai College"},
+                    "Degree": {
+                        "DegreeDate": {"AnyDate": "2004-01-01"},
+                        "DatesOfAttendance": {
+                            "StartDate": {"AnyDate": "notKnown"},
+                            "EndDate": {"AnyDate": "2004-01-01"}
+                        },
+                        "Comments": "B.C.S\tPune\tH.V.Desai College, Pune          2004\tHigher Second",
+                        "UserArea": {"sov:DegreeUserArea": {"sov:Id": "DEG-4"}}
+                    },
+                    "schoolType": "college"
+                },
+                {
+                    "PostalAddress": {
+                        "Municipality": "Pune",
+                        "Region": "MAHARASHTRA",
+                        "CountryCode": "IN"
+                    },
+                    "School": {"SchoolName": "Abasaheb Garware College"},
+                    "Degree": {
+                        "DegreeDate": {"AnyDate": "2000-01-01"},
+                        "DatesOfAttendance": {
+                            "StartDate": {"AnyDate": "notKnown"},
+                            "EndDate": {"AnyDate": "2000-01-01"}
+                        },
+                        "degreeType": "secondary",
+                        "Comments": "H.S.C\tMaharashtra         Abasaheb Garware College, Pune   2000\tSecond",
+                        "UserArea": {"sov:DegreeUserArea": {"sov:Id": "DEG-5"}},
+                        "DegreeName": "H.S.C"
+                    },
+                    "schoolType": "college"
+                },
+                {
+                    "PostalAddress": {
+                        "Municipality": "Pune",
+                        "Region": "MAHARASHTRA",
+                        "CountryCode": "IN"
+                    },
+                    "School": {"SchoolName": "Bharati Vidyapeeth"},
+                    "Degree": {
+                        "DegreeDate": {"AnyDate": "1998-01-01"},
+                        "DatesOfAttendance": {
+                            "StartDate": {"AnyDate": "notKnown"},
+                            "EndDate": {"AnyDate": "1998-01-01"}
+                        },
+                        "degreeType": "secondary",
+                        "Comments": "S.S.C\tMaharashtra         Bharati Vidyapeeth, Pune         1998\tFirst",
+                        "UserArea": {"sov:DegreeUserArea": {"sov:Id": "DEG-6"}},
+                        "DegreeName": "S.S.C"
+                    },
+                    "schoolType": "secondary"
+                }
+            ]},
+            "ContactInfo": {
+                "PersonName": {
+                    "FamilyName": "BOBADE",
+                    "FormattedName": "AMIT SURESH BOBADE",
+                    "GivenName": "AMIT",
+                    "MiddleName": "SURESH"
+                },
+                "ContactMethod": [
+                    {
+                        "WhenAvailable": "anytime",
+                        "PostalAddress": {
+                            "Municipality": "Pune",
+                            "DeliveryAddress": {"AddressLine": [
+                                "Niranjan Society, Plot No: 9",
+                                "Sr.No 24/4, \"Amitkunj\"",
+                                "Katraj"
+                            ]},
+                            "PostalCode": 411046,
+                            "Region": "MAHARASHTRA",
+                            "CountryCode": "IN"
+                        }
+                    },
+                    {
+                        "WhenAvailable": "anytime",
+                        "Use": "personal",
+                        "Mobile": {"FormattedNumber": 7743871057},
+                        "Location": "onPerson"
+                    },
+                    {"Telephone": {"FormattedNumber": 8087726384}},
+                    {
+                        "WhenAvailable": "anytime",
+                        "InternetEmailAddress": "amitbobade6@gmail.com",
+                        "Use": "personal",
+                        "Location": "onPerson"
+                    },
+                    {
+                        "WhenAvailable": "anytime",
+                        "InternetWebAddress": "Startv.in",
+                        "Use": "businessDirect",
+                        "Location": "home"
+                    },
+                    {
+                        "WhenAvailable": "anytime",
+                        "InternetWebAddress": "starplus.startv.in",
+                        "Use": "businessDirect",
+                        "Location": "home"
+                    },
+                    {
+                        "WhenAvailable": "anytime",
+                        "InternetWebAddress": "starjalsha.com",
+                        "Use": "businessDirect",
+                        "Location": "home"
+                    },
+                    {
+                        "WhenAvailable": "anytime",
+                        "InternetWebAddress": "starworld.in",
+                        "Use": "businessDirect",
+                        "Location": "home"
+                    },
+                    {
+                        "WhenAvailable": "anytime",
+                        "InternetWebAddress": "channelv.in",
+                        "Use": "businessDirect",
+                        "Location": "home"
+                    },
+                    {
+                        "WhenAvailable": "anytime",
+                        "InternetWebAddress": "starmovies.in",
+                        "Use": "businessDirect",
+                        "Location": "home"
+                    },
+                    {
+                        "WhenAvailable": "anytime",
+                        "InternetWebAddress": "starmoviesaction.com",
+                        "Use": "businessDirect",
+                        "Location": "home"
+                    },
+                    {
+                        "WhenAvailable": "anytime",
+                        "InternetWebAddress": "lifeok.com",
+                        "Use": "businessDirect",
+                        "Location": "home"
+                    },
+                    {
+                        "WhenAvailable": "anytime",
+                        "InternetWebAddress": "starpravah.com",
+                        "Use": "businessDirect",
+                        "Location": "home"
+                    },
+                    {
+                        "WhenAvailable": "anytime",
+                        "InternetWebAddress": "moviesok.in",
+                        "Use": "businessDirect",
+                        "Location": "home"
+                    },
+                    {
+                        "WhenAvailable": "anytime",
+                        "InternetWebAddress": "stargold.in",
+                        "Use": "businessDirect",
+                        "Location": "home"
+                    },
+                    {
+                        "WhenAvailable": "anytime",
+                        "InternetWebAddress": "jalshamovies.com",
+                        "Use": "businessDirect",
+                        "Location": "home"
+                    },
+                    {
+                        "WhenAvailable": "anytime",
+                        "InternetWebAddress": "www.rsquaresystems.com/cardprint",
+                        "Use": "businessDirect",
+                        "Location": "home"
+                    }
+                ]
+            },
+            "Languages": {"Language": {
+                "Read": true,
+                "Write": true,
+                "LanguageCode": "en",
+                "Speak": true,
+                "Comments": "[RESUME_LANGUAGE]"
+            }},
+            "Qualifications": {
+                "QualificationSummary": "",
+                "Competency": [
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 228,
+                            "idOwner": 0
+                        },
+                        "CompetencyEvidence": {
+                            "name": "ACCESS",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "003891",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "003891"},
+                        "name": "ACCESS"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 204,
+                            "idOwner": 10
+                        },
+                        "CompetencyEvidence": {
+                            "name": "B2B SOFTWARE",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "023446",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "023446"},
+                        "name": "B2B SOFTWARE"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 228,
+                            "idOwner": 0
+                        },
+                        "CompetencyEvidence": {
+                            "name": "DATABASE",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "015022",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "015022"},
+                        "name": "DATABASE"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 201,
+                            "idOwner": 10
+                        },
+                        "CompetencyEvidence": {
+                            "name": "DATABASE",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "022486",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "022486"},
+                        "name": "DATABASE"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 446,
+                            "idOwner": 69
+                        },
+                        "CompetencyEvidence": {
+                            "name": "DATABASE TESTING",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "015040",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "015040"},
+                        "name": "DATABASE TESTING"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 309,
+                            "idOwner": 5
+                        },
+                        "CompetencyEvidence": {
+                            "name": "FUNCTIONAL TESTING",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "022845",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "022845"},
+                        "name": "FUNCTIONAL TESTING"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 446,
+                            "idOwner": 69
+                        },
+                        "CompetencyEvidence": {
+                            "name": "FUNCTIONAL TESTING",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "022846",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "022846"},
+                        "name": "FUNCTIONAL TESTING"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 204,
+                            "idOwner": 10
+                        },
+                        "CompetencyEvidence": {
+                            "name": "HTML",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "019115",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "019115"},
+                        "name": "HTML"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 339,
+                            "idOwner": 10
+                        },
+                        "CompetencyEvidence": {
+                            "name": "JAVA",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "023328",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "023328"},
+                        "name": "JAVA"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 339,
+                            "idOwner": 10
+                        },
+                        "CompetencyEvidence": {
+                            "name": "JSP",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": 339001,
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": 339001},
+                        "name": "JSP"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 193,
+                            "idOwner": 10
+                        },
+                        "CompetencyEvidence": {
+                            "name": "MS SQL SERVER",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "023733",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "023733"},
+                        "name": "MS SQL SERVER"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 341,
+                            "idOwner": 10
+                        },
+                        "CompetencyEvidence": {
+                            "name": "RDBMS",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "022369",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "022369"},
+                        "name": "RDBMS"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 115,
+                            "idOwner": 1
+                        },
+                        "CompetencyEvidence": {
+                            "name": "REGRESSION TESTING",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "006692",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "006692"},
+                        "name": "REGRESSION TESTING"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 201,
+                            "idOwner": 10
+                        },
+                        "CompetencyEvidence": {
+                            "name": "SDLC",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "025956",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "025956"},
+                        "name": "SDLC"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 204,
+                            "idOwner": 10
+                        },
+                        "CompetencyEvidence": {
+                            "name": "SOFTWARE ENGINEERING",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "008221",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {
+                            "id": "008221",
+                            "idOwner": "023446"
+                        },
+                        "name": "SOFTWARE ENGINEERING"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 193,
+                            "idOwner": 10
+                        },
+                        "CompetencyEvidence": {
+                            "name": "SQL",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "008481",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "008481"},
+                        "name": "SQL"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 193,
+                            "idOwner": 10
+                        },
+                        "CompetencyEvidence": {
+                            "name": "SQL SERVER",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "008483",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {
+                            "id": "008483",
+                            "idOwner": "023733"
+                        },
+                        "name": "SQL SERVER"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 193,
+                            "idOwner": 10
+                        },
+                        "CompetencyEvidence": {
+                            "name": "SQL SERVER 2000",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "008484",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {
+                            "id": "008484",
+                            "idOwner": "023733"
+                        },
+                        "name": "SQL SERVER 2000"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 239,
+                            "idOwner": 7
+                        },
+                        "CompetencyEvidence": {
+                            "name": "TEAM PLAYER",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "026528",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "026528"},
+                        "name": "TEAM PLAYER"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 528,
+                            "idOwner": 90
+                        },
+                        "CompetencyEvidence": {
+                            "name": "TEAM PLAYER",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "026529",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "026529"},
+                        "name": "TEAM PLAYER"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 446,
+                            "idOwner": 69
+                        },
+                        "CompetencyEvidence": {
+                            "name": "TEST CASE",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "024449",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "024449"},
+                        "name": "TEST CASE"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 446,
+                            "idOwner": 69
+                        },
+                        "CompetencyEvidence": {
+                            "name": "TEST CASES",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "009422",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "009422"},
+                        "name": "TEST CASES"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 446,
+                            "idOwner": 69
+                        },
+                        "CompetencyEvidence": {
+                            "name": "TEST PLANS",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "009451",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "009451"},
+                        "name": "TEST PLANS"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 323,
+                            "idOwner": 16
+                        },
+                        "CompetencyEvidence": {
+                            "name": "TEST PLANS",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "009453",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "009453"},
+                        "name": "TEST PLANS"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 307,
+                            "idOwner": 5
+                        },
+                        "CompetencyEvidence": {
+                            "name": "TEST PLANS",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "024205",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "024205"},
+                        "name": "TEST PLANS"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 204,
+                            "idOwner": 10
+                        },
+                        "CompetencyEvidence": {
+                            "name": "VBSCRIPT",
+                            "typeDescription": "Found in WORK HISTORY; POS-1",
+                            "typeId": "010438",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 6
+                            }
+                        },
+                        "CompetencyId": {"id": "010438"},
+                        "name": "VBSCRIPT"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 446,
+                            "idOwner": 69
+                        },
+                        "CompetencyEvidence": {
+                            "lastUsed": "2006-01-01",
+                            "name": "TESTING",
+                            "typeDescription": "Found in EDUCATION; WORK HISTORY; DEG-1; DEG-2; POS-1",
+                            "typeId": "009472",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 2
+                            }
+                        },
+                        "CompetencyId": {"id": "009472"},
+                        "name": "TESTING"
+                    },
+                    {
+                        "TaxonomyId": {
+                            "description": "Sovren",
+                            "id": 335,
+                            "idOwner": 6
+                        },
+                        "CompetencyEvidence": {
+                            "name": "CSI",
+                            "typeDescription": "Found in EDUCATION; DEG-1",
+                            "typeId": "014695",
+                            "NumericValue": {
+                                "description": "Total Months",
+                                "content": 1
+                            }
+                        },
+                        "CompetencyId": {"id": "014695"},
+                        "name": "CSI"
+                    }
+                ]
+            }
+        },
+        "xmlns:sov": "http://sovren.com/hr-xml/2006-02-28",
+        "UserArea": {"sov:ResumeUserArea": {
+            "sov:ExperienceSummary": {
+                "sov:Description": "AMIT SURESH BOBADE's experience appears to be concentrated in QA and QC / Techniques, with exposure to Information Technology / Programming. AMIT SURESH BOBADE's experience appears to be ENTRY LEVEL, with only 0 months of experience, with no management experience.",
+                "sov:BestFitTaxonomies": {"sov:BestFitTaxonomy": [
+                    {
+                        "sov:BestFitTaxonomy": {
+                            "rootId": "Sovren",
+                            "percentOfOverall": 35.91,
+                            "name": "Techniques",
+                            "percentOfParent": "100.00",
+                            "weight": 400.76,
+                            "id": 446
+                        },
+                        "rootId": "Sovren",
+                        "percentOfOverall": 35.91,
+                        "name": "QA and QC",
+                        "percentOfParent": 35.91,
+                        "weight": 400.76,
+                        "id": 69
+                    },
+                    {
+                        "sov:BestFitTaxonomy": [
+                            {
+                                "rootId": "Sovren",
+                                "percentOfOverall": 11.61,
+                                "name": "Programming",
+                                "percentOfParent": 33.33,
+                                "weight": "129.60",
+                                "id": 204
+                            },
+                            {
+                                "rootId": "Sovren",
+                                "percentOfOverall": 7.74,
+                                "name": "Database",
+                                "percentOfParent": 22.22,
+                                "weight": "86.40",
+                                "id": 193
+                            }
+                        ],
+                        "rootId": "Sovren",
+                        "percentOfOverall": 34.84,
+                        "name": "Information Technology",
+                        "percentOfParent": 34.84,
+                        "weight": "388.80",
+                        "id": 10
+                    }
+                ]},
+                "sov:YearsOfWorkExperience": 0,
+                "sov:MonthsOfManagementExperience": 0,
+                "sov:MonthsOfWorkExperience": 0,
+                "sov:ExecutiveType": "none",
+                "sov:YearsOfManagementExperience": 0,
+                "sov:HighestManagementScore": 0
+            },
+            "sov:ParseTime": 844,
+            "sov:Sections": {"sov:Section": [
+                {
+                    "ends": 13,
+                    "starts": 12,
+                    "sectionType": "OBJECTIVE",
+                    "content": "Objective"
+                },
+                {
+                    "ends": 30,
+                    "starts": 14,
+                    "sectionType": "WORK HISTORY",
+                    "content": "Professional Career Summary"
+                },
+                {
+                    "ends": 33,
+                    "starts": 31,
+                    "sectionType": "EDUCATION",
+                    "content": "Educational Qualification"
+                },
+                {
+                    "ends": 43,
+                    "starts": 34,
+                    "sectionType": "EDUCATION",
+                    "content": "Certification"
+                },
+                {
+                    "ends": 191,
+                    "starts": 44,
+                    "sectionType": "CONTACT INFO",
+                    "content": "Personal Details"
+                },
+                {
+                    "ends": 197,
+                    "starts": 192,
+                    "sectionType": "PROFESSIONAL AFFILIATIONS",
+                    "content": "Extra Activities"
+                }
+            ]},
+            "sov:LicenseSerialNumber": "dd384fb4-21b1-4e51-b216-d60f4d2c7487",
+            "sov:ParserConfigurationString": "_100001_0_00000001_1101010110001100_1_0000000000000111111102000000000010000100000000000000000000100",
+            "sov:ParserVersion": "7.3.7300.22",
+            "sov:Culture": {
+                "sov:Country": "IN",
+                "sov:Language": "en",
+                "sov:CultureInfo": "en-IN"
+            },
+            "sov:ParsedTextLength": 13623
+        }},
+        "ResumeId": {"IdValue": ""}
+    }
+}
