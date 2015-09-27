@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.bg.engine.RequirementModel.impl;
+package com.bg.engine.requirementmodel.impl;
 
 /**
  * @author amitpras

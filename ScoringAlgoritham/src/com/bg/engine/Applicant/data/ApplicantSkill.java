@@ -1,13 +1,13 @@
 /**
  * 
  */
-package com.bg.engine.ApplicantModel.impl;
+package com.bg.engine.applicant.data;
 
 /**
  * @author amitpras
  *
  */
-public class ApplicantSkillModel {
+public class ApplicantSkill {
 	private String name;
 	private int experience;
 	private int level;
@@ -39,9 +39,9 @@ public class ApplicantSkillModel {
 	@Override
 	public boolean equals(Object o) 
 	{
-	    if (o instanceof ApplicantSkillModel) 
+	    if (o instanceof ApplicantSkill) 
 	    {
-	    	ApplicantSkillModel c = (ApplicantSkillModel) o;
+	    	ApplicantSkill c = (ApplicantSkill) o;
 	    	if ( this.name.equals(c.name) )
 	    		return true;
 	    }

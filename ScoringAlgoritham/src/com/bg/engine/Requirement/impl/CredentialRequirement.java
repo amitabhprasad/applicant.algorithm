@@ -1,4 +1,4 @@
-package com.bg.engine.Requirement.impl;
+package com.bg.engine.requirement.impl;
 
 import com.bg.engine.JobRequirement;
 

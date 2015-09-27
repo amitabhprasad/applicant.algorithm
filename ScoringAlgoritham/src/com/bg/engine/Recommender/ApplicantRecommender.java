@@ -1,10 +1,10 @@
 /**
  * 
  */
-package com.bg.engine.Recommender;
+package com.bg.engine.recommender;
 
 import com.bg.engine.JobRequirement;
-import com.bg.engine.Requirement.impl.SkillRequirement;
+import com.bg.engine.requirement.impl.SkillRequirement;
 
 /**
  * @author amitpras

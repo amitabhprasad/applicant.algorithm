@@ -1,8 +1,8 @@
-package com.bg.engine.Requirement.impl;
+package com.bg.engine.requirement.impl;
 
 import java.util.List;
 import com.bg.engine.JobRequirement;
-import com.bg.engine.RequirementModel.impl.*;
+import com.bg.engine.requirementmodel.impl.*;
 
 /**
  * 
