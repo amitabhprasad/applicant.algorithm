@@ -21,16 +21,16 @@ public class AssessmentObject {
 	public void setAssessmentScore(double assessmentScore) {
 		this.assessmentScore = assessmentScore;
 	}
-	public List<String> getPross() {
+	public List<String> getPros() {
 		return pros;
 	}
-	public void setPositivePoints(List<String> pros) {
+	public void setPros(List<String> pros) {
 		this.pros = pros;
 	}
 	public List<String> getCons() {
 		return cons;
 	}
-	public void setNegativePoints(List<String> cons) {
+	public void setCons(List<String> cons) {
 		this.cons = cons;
 	}
 	
