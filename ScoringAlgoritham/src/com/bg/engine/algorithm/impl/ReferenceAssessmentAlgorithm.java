@@ -6,7 +6,7 @@ package com.bg.engine.algorithm.impl;
 import com.bg.engine.AssessmentAlgorithm;
 import com.bg.engine.AssessmentObject;
 import com.bg.engine.JobRequirement;
-import com.bg.engine.applicant.impl.*;
+import com.bg.engine.applicant.impl.ApplicantDetails;
 import com.bg.engine.config.AlgoConfig;
 
 /**
